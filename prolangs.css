@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+<style type="text/css">
+.List {
+	text-align: center;
+	font-size: 18px;
+}
+.List1 {
+	color: #F00;
+}
+.List2 {
+	color: #00F;
+}
+.List3 {
+	color: #0F0;
+}
+.List4 {
+	color: #FC0;
+}
+.rullgardin {
+	text-align: center;
+}
+</style>
