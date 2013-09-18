@@ -1,77 +1,19 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Forskjellige progameringsspråk</title>
-<link href="prolangs.css" rel="stylesheet" style type="text/css" />
-<style type="text/css">
-.List {
-	text-align: center;
-	font-size: 18px;
-	font-family: "Courier New", Courier, monospace;
-}
-.List1 {
-	color: #F00;
-}
-.List2 {
-	color: #00F;
-}
-.List3 {
-	color: #0F0;
-}
-.List4 {
-	color: #FC0;
-}
-.rullgardin {
-	text-align: center;
-}
+
+<link rel="stylesheet" type="text/css" href="prolangs.css" /><style type="text/css">
 </style>
+<script src="prolangs.js" type="text/javascript" ></script>
+<title>Forskjellige programmeringsspråk</title>
 
-
-<script type="text/javascript">
-function endring()
-{
-var valg="";
-
-valg = document.getElementById("select_id").value; 
-
-if(valg==""){
-	document.getElementById("outputbox").innerHTML="resultat ";}
-
-else{document.getElementById("outputbox").innerHTML="<b>Du har selektert programeringsspråket " +valg;
-}}
-</script>
+</head>
 
 <body>
-<ul style="list-style: none;">
-<p class="List"><b>Programeringsspråk</b></p>
-<li class="List"><span class="List1">ActionScript</span></li>
-<li class="List"><span class="List1">Applescript</span></li>
-<li class="List"><span class="List1">Asp</span></li>
-<li class="List"><span class="List1">BASIC</span></li>
-<li class="List"><span class="List1">C</span></li>
-<li class="List"><span class="List1">C++</span></li>
-<li class="List"><span class="List2">Coljure</span></li>
-<li class="List"><span class="List2">COBOL</span></li>
-<li class="List"><span class="List2">ColdFusion</span></li>
-<li class="List"><span class="List2">Erlang</span></li>
-<li class="List"><span class="List2">Groovy</span></li>
-<li class="List"><span class="List3">Haskell</span></li>
-<li class="List"><span class="List3">Java</span></li>
-<li class="List"><span class="List3">JavaScript</span></li>
-<li class="List"><span class="List3">Lisp</span></li>
-<li class="List"><span class="List3">Perl</span></li>
-<li class="List"><span class="List4">PHP</span></li>
-<li class="List"><span class="List4">Python</span></li>
-<li class="List"><span class="List4">Ruby</span></li>
-<li class="List"><span class="List4">Scala</span></li>
-<li class="List"><span class="List4">Scheme</span></li>
-<span class="rullgardin">
-  </li>
-  </ul>
-  
-  <center><form>
-  <select id="select_id" onchange="endring()">
+
+  Søk i programmeringsspråk:
+  <form>
+<select id="select_id" onchange="endring()">
     <option value="Actionscript">Actionscript</option>
     <option value="Applescript">Applescript</option>
     <option value="Asp">Asp</option>
@@ -95,6 +37,24 @@ else{document.getElementById("outputbox").innerHTML="<b>Du har selektert program
     <option value="Scheme">Scheme</option>
 </select>
 </li>
-<p id="outputbox"><b>Du har ikke valgt noe språk</b></p>
+
+
+
+<ul class="navbar">
+  <li><a href="prolangs.html">Hjemmeside</a>
+  <li><a href="prolangs.html"onclick="konstruksjon()"value="Show alert box">Kronologisk</a>
+  <li><a href="prolangs.html"onclick="konstruksjon()"value="Show alert box">Hierarisk</a>
+  <li><a href="prolangs.html"onclick="konstruksjon()"value="Show alert box">Alfabetisk</a>
+</ul>
+
+
+<h1>Programmeringsspråk - hva er det?</h1>
+
+<p id="outputbox"><b>Velkommen til en mystisk verden av programmeringsspråk</b></p>
+<p>
+<address>
+Laget 18 September 2013<br>
+av Jens Holm.</address>
+
 </body>
 </html>
