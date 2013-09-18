@@ -1,23 +1,47 @@
 @charset "utf-8";
 /* CSS Document */
-<style type="text/css">
-.List {
-	text-align: center;
-	font-size: 18px;
+body {
+	padding-left: 11em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #000;
+	background-color: #6699CC
 }
-.List1 {
+ul.navbar {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 76px;
+	left: 13px;
+	width: 9em
+}
+h1 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif
+}
+ul.navbar li {
+	background: #391A6F;
+	margin: 0.5em 0;
+	padding: 0.3em;
+	border-right: 1em solid black;
+	color: #FFF;
+}
+ul.navbar a {
+	text-decoration: none;
+	color: #FFF;
+}
+a:link {
+  color: blue }
+a:visited {
+	color: #09F
+}
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }
+	.hh1 {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
 	color: #F00;
+	text-decoration: underline;
 }
-.List2 {
-	color: #00F;
-}
-.List3 {
-	color: #0F0;
-}
-.List4 {
-	color: #FC0;
-}
-.rullgardin {
-	text-align: center;
-}
-</style>
