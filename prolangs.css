@@ -1,31 +1,31 @@
 @charset "utf-8";
 /* CSS Document */
-body {
-	padding-left: 11em;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	color: #000;
-	background-color: #6699CC
+body { // body tag (midtsiden)
+	padding-left: 11em; // Plasseringen av elementer under body tag. 
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; // skrifttype
+	color: #000; // farge på skriftype
+	background-color: #6699CC //bakgrunsfarge på elementer under body tag.
 }
-ul.navbar {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	position: absolute;
+ul.navbar { // Navigasjonbaren
+	list-style-type: none; // Fjerner punkter 
+	padding: 0; /Plassering X
+	margin: 0; /Plassering Y
+	position: absolute; 
 	top: 76px;
 	left: 13px;
 	width: 9em
 }
 h1 {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif // H1 tagg med skriftype.
 }
-ul.navbar li {
+ul.navbar li { // Navigasjonsbar liste farge/plassering
 	background: #391A6F;
 	margin: 0.5em 0;
 	padding: 0.3em;
 	border-right: 1em solid black;
 	color: #FFF;
 }
-ul.navbar a {
+ul.navbar a { // Fargen på navigasjonsbar.
 	text-decoration: none;
 	color: #FFF;
 }
@@ -34,7 +34,7 @@ a:link {
 a:visited {
 	color: #09F
 }
-address {
+address { // Address tag. 
   margin-top: 1em;
   padding-top: 1em;
   border-top: thin dotted }
