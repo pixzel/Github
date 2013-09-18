@@ -1,5 +1,4 @@
 // JavaScript Document
-<script type="text/javascript">
 function endring()
 {
 var valg="";
@@ -11,4 +10,8 @@ if(valg==""){
 
 else{document.getElementById("melding").innerHTML="<b>Du har selektert programeringsspråket " +valg;
 }}
-</script>
+
+function konstruksjon()
+{
+alert("Denne siden er under konstruksjon!");
+}
