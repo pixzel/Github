@@ -1,5 +1,6 @@
 Github
 ======
+[LAB 1 v.01]
 
 IS-104 oppgave [Kontrollspørsmål]
  
@@ -35,13 +36,43 @@ av programmeringsspråk?
 
 - Dette betyr at for å bruke dem semantisk, bør <div> brukes til å pakke inn deler av et dokument, mens <span> bør brukes til å pakke inn små porsjoner av tekst, bilder, osv.
 
-5) Hvilke brukbarhetsproblemer er det med den siste versjonen av implementeringen i
-deloppgaven 2? Nevn gjerne hvordan man kunne løse problemene. (Tips: overlapp mellom
-forskjellige grafiske elementer og tilfelle hvor man ønsker å selektere det første navnet på
-programmeringsspårket i listen)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[LAB 2 v.02]
+
+1) Forklar hvilken deler av din applikasjon så langt, implementerer de forskjellige lagene i MVC
+arkitekturen. MVC står får Model­View­Controller, som til norsk kan oversettes til
+Modell­Presentasjon­Kontorller.
+
+2) 
+
+ModelViewController består av tre forskjellige ledd. 
+
+1. Modell(Innhold): Det er en av modellene som lager/mellomlagrer informasjon som brkeren enten legger inn (skjema)
+eller "tar ut" (surfe).
+
+Denne modellen i min applikasjon så langt gjør at når brukeren trykker på drop down-menyen så får brukeren beskjed (alert) om at siden er 
+under konstruksjon samt når kunden velger en av programmeringsspråkene fra "form" får de et svar (output) for hvilket språk brukeren har valgt.
+
+2. Kontrolleren: Tar inn informasjon i form av hendelser fra det såkalte "bruekrregisteret" og bruker "modellen" for å returne en presentasjon
+som resultat av tekst. 
+
+Denne modellen i min applikasjon så langt registrerer handlingene brukeren gjør å sender den informasjonen til modellen. 
+
+3. Presentasjonlaget:  Applikasjon som motar kodet informasjon Presentasjon blir laget av en applikasjon som mottar kodet
+informasjon (HTML og eventuelt CSS, JavaScript) og basert på det opptegner denne applikasjonen et skjermbilde som vi
+også kaller for brukergrensesnitt.
+
+Denne modellen gjør at min applikasjon er avhenig av at brukeren har en applikasjon (webbrowser) for å kunne se innholdet og bruke kontrolleren. 
 
 
-- ???
+
+
+
+
 
 
 
