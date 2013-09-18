@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+    <title>Forskjellige programmeringsspråk</title>
+  <style type="text/css">
+
+body {
+	padding-left: 11em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #000;
+	background-color: #6699CC
+}
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em }
+h1 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif
+}
+ul.navbar li {
+	background: #391A6F;
+	margin: 0.5em 0;
+	padding: 0.3em;
+	border-right: 1em solid black;
+	color: #FFF;
+}
+ul.navbar a {
+	text-decoration: none;
+	color: #FFF;
+}
+a:link {
+  color: blue }
+a:visited {
+	color: #09F
+}
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }
+	.hh1 {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #F00;
+	text-decoration: underline;
+}
+  </style>
+    <script type="text/javascript">
+function endring()
+{
+var valg="";
+
+valg = document.getElementById("select_id").value; 
+
+if(valg==""){
+	document.getElementById("outputbox").innerHTML="resultat ";}
+
+else{document.getElementById("outputbox").innerHTML="<b>Du har selektert programeringsspråket " +valg;
+}}
+</script>
+</head>
+
+<body>
+
+  <center>
+  Søk i programmeringsspråk:
+  <form>
+  <select id="select_id" onchange="endring()">
+    <option value="Actionscript">Actionscript</option>
+    <option value="Applescript">Applescript</option>
+    <option value="Asp">Asp</option>
+    <option value="Basic">Basic</option>
+    <option value="C">C</option>
+    <option value="C++">C++</option>
+    <option value="Coljure">Coljure</option>
+    <Option value="Cobol">Cobol</Option>
+    <option value="Coldfusion">Coldfusion</option>
+    <option value="Erlang">Erlang</option>
+    <option value="Grooy">Groovy</option>
+    <option value="Haskell">Haskell</option>
+    <option value="Java">Java</option>
+    <option value="Javascript">Javascript</option>
+    <option value="Lisp">Lisp</option>
+    <option value="Perl">Perl</option>
+    <option value="PHP">PHP</option>
+    <option value="Python">Python</option>
+    <option value="Ruby">Ruby</option>
+    <option value="Scala">Scala</option>
+    <option value="Scheme">Scheme</option>
+</select>
+</li>
+
+
+<!-- Site navigation menu -->
+<ul class="navbar">
+  <li><a href="index.html">Hjemmeside</a>
+  <li><a href="musings.html">Kronologisk</a>
+  <li>Hierarisk
+  <li><a href="links.html">Alfabetisk</a>
+</ul>
+
+<!-- Main content -->
+<h1>Programmeringsspråk - hva er det?</h1>
+
+<p id="outputbox"><b>Velkommen til en mystisk verden av programmeringsspråk</b></p>
+
+<p><!-- Sign and date the page, it's only polite! --><address>
+Laget 18 September 2013<br>
+av Jens Holm.</address>
+
+</body>
+</html>
