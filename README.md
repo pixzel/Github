@@ -1,5 +1,16 @@
 Github
 ======
+
+Hva er dette?
+
+IS-104
+Elev: Jens Holm
+Semester: høst 2013
+
+Hva gjør denne websiden?
+
+Denne websiden er en webapplikasjon for å presentere forskjellige programmeringsspråk.
+
 [LAB 1 v.01]
 
 IS-104 oppgave [Kontrollspørsmål]
