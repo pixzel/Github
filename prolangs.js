@@ -6,9 +6,9 @@ var valg="";
 valg = document.getElementById("select_id").value; 
 
 if(valg==""){
-	document.getElementById("melding").innerHTML="Velg et språk ";}
+	document.getElementById("outputbox").innerHTML="Velg et språk ";}
 
-else{document.getElementById("melding").innerHTML="<b>Du har selektert programeringsspråket " +valg;
+else{document.getElementById("outputbox").innerHTML="<b>Du har selektert programeringsspråket " +valg;
 }}
 
 function konstruksjon()
