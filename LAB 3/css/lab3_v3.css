@@ -19,5 +19,6 @@
 /* Gir verdi den vertikale verdien y en fet skrift(bold)og lilla(purple) farge. */
 #y {
 	font-weight: bold;
-	color: #939;
+	color: purple;
 }
+
