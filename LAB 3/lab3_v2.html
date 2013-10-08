@@ -3,6 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<title>Hendelser med jQuery</title>
+    <link href="css/lab3_v2.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    #x {
+	color: #00F;
+}
+    </style>
+
 	<!-- Husk å legge til CSS filen din her" -->
 	<script src="js/jquery-1.8.1.js"></script>
     <script>
@@ -25,24 +32,41 @@
 			var mouse = {
 				x: e.pageX - canvasPosition.x,
 				y: e.pageY - canvasPosition.y
-			}
-		
+			}		
 		/*
 		   Nå har du lokale koordinater i mouse.x og mouse.y som er beregnet i forhold til det lokale 
 		   koordinatsystemet i my_canvas med (0,0) i det øverste venstre hjørne
 		*/
 			// Skriv koordinatene ut til console basert på lab3_v1
-			// oppgave 2 a) besvares her
-		   
-			// Her skrives koordinatene ut til en <span> node
-			// Man skriver til innerHTML og også legger på stil (farge osv.)
-			// oppgave 2 b) besvares her
 			
-			return false;
-		});
+//-------------------------------------------------------------------------------------------------//
+//                                   Deloppgave 1 - Jens Holm                                     
+//-------------------------------------------------------------------------------------------------//			
+
+	// oppgave 2 a) besvares her
+		   	console.log(mouse.x + "," + mouse.y);
+
+	// Her skrives koordinatene ut til en <span> node
+	// Man skriver til innerHTML og også legger på stil (farge osv.) --> DENNE ER LAGT I SEPARAT CSS!
+	// oppgave 2 b) besvares her
+			
+			$("#x").html(mouse.x);
+            $("#y").html(mouse.y);
+            
+            canvas.drawArc({
+                fillStroke: "#333",
+                x: mouse.x,
+			    y: mouse.y,
+                radius:2
+			
+			
+            }); 
+        });
 	}); 
+		
 	</script>
 </head>
+
 <body>
 	<p>Testside for å "fange" hendelser fra mus.</p>
 	<p>
@@ -54,5 +78,8 @@
 	</p>
 	<canvas id="my_canvas" width="200" height="200"></canvas>
 	<!-- Oppgaveløsning skal implementeres her -->
+    <!-- Her bruker jeg span ID som forklart i oppgaven -->
+    <p>Avstand fra den venstre kanten av Canvas er <span id="x"></span></p>
+    <p>Avstand fra den høyre kanten av Canvas er <span id="y"></span></p>
 </body>
 </html>

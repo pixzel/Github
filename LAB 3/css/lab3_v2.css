@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Gir my_canvas en border line på 3 pixler*/
+#my_canvas { 
+    border: solid 3px;
+    width: 200px;
+    height: 200px;
+	
+		
+/* Gir verdi den horisontale verdien x en fet skrift(bold)og blå(blue) farge. */
+}#x {
+	font-weight: bold;
+/*Når jeg valgt "blue" ble den rød, aner ikke hvorfor, så jeg brukte colour code istedenfor */
+	color: #0000FF; 
+
+}
+
+/* Gir verdi den vertikale verdien y en fet skrift(bold)og lilla(purple) farge. */
+#y {
+	font-weight: bold;
+	color: purple;
+}

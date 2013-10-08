@@ -36,12 +36,12 @@
 //                                   Deloppgave 0 - Jens Holm                                     
 //-------------------------------------------------------------------------------------------------//
 
-		   
+		   // tastekode for pil ned
 		case 40:
 				var piltast = ("Pil ned tast trykket");
 				console.log( 'Pil ned tast trykket!' );
 				break;
-				
+			// taste kode for pil opp 
 			case 38:
 				var piltast = ("Pil opp tast trykket");
 				console.log( 'Pil opp tast trykket!' );
@@ -49,8 +49,9 @@
 			
 			
 		}
-		
+		// Respons direkte på siden
 		$("#keypressed") .html(piltast)
+		// Farge respons på keypressed.
 		$("#keypressed") .addClass ("blue");
 		});
 	
