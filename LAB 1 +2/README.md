@@ -1,4 +1,4 @@
-Github
+LAB 1+2
 ======
 
 Hva er dette?
